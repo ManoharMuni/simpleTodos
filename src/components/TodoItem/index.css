@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.listItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.button {
+  color: #ff0b37;
+  background-color: #ffffff;
+  height: 30px;
+  width: 70px;
+  border: 1px solid #ff0b37;
+  border-radius: 6px;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
